@@ -83,6 +83,7 @@ function buildEndPoint (key) {
     // refresh the UI
     refreshUI(list);
     makeTable(list);
+    makeTable(list);
 });
 
   function makeTable(list) {
