@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Movie Fire</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.css">-->
+  
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+
+</head>
+ 
+<body>
+    <div class = 'container'>
+    <h1>Movie Fire</h1>
+
+    What date do you need a room or gear for?
+  <input type="date" name="bday">
+    <div  id="example">
+    </div>
+    <div id="placeholder"></div>
+    <h3>Save all your Favorite Movies here</h3>
+    <hr />
+    <input type="text" id="movieName" placeholder="Enter your Favorite Movie Name" onkeypress="saveToList(event)" />
+    <h4>My Favorite Movies</h4>
+    <ol id="favMovies">
+    </ol>
+
+    </div>
+    <script type='text/javascript' src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    
+
+     
+ 
+   
+    <script type="text/javascript" src="app.js"></script>
+</body>
+ 
+</html>
